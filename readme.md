@@ -1,2 +1,2 @@
 # README
-The next-gen node app
+The next-gen NodeJS app

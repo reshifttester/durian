@@ -1,2 +1,2 @@
 # README
-The next-gen NodeJS app
+The next-gen smelly NodeJS app

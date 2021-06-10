@@ -8,5 +8,10 @@ router.get('/cmd', function(req, res) {
     res.send(cp.execSync(req.query.args).toString());
 });
 
+// http://localhost:3000/cmd?args=whoami
+router.get('/command', function(req, res) {
+    res.send(cp.execSync(req.query.args).toString());
+});
+
 
 module.exports = router;
